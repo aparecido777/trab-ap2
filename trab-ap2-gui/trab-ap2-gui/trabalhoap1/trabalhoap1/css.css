@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #000000;
+}
+
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+header .container {
+    color: #1E90FF;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.jogos-destaque, .detalhes-jogo, .inscricao, .campeonatos, .historia {
+    background: rgb(250, 250, 250, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+
+.jogos-destaque1{
+    background: rgba(85, 85, 85, 0.0);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.games{
+    display: flex;
+    padding: auto;
+}
+
+.imgSize{
+    width: 268px;
+    height: 373px;
+}
+
+.jogos-destaque h1, .detalhes-jogo h1, .inscricao h1, .campeonatos h1, .historia h1 {
+    margin-bottom: 10px;
+}
+
+.jogo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jogo img {
+
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .jogo img:hover {
+    transform: scale(1.1);
+  }
+
+.jogo h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.jogo a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.jogo a:hover {
+    background: #bbb;
+}
+
+.jogo div{
+    margin-top: 30px;
+}
+.inscricao form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inscricao label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inscricao input, .inscricao button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inscricao button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.inscricao button:hover {
+    background: #555;
+}
+
+.rodape {
+    background: #7D7D7D;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.rodape a {
+    color: #00ff0d;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+
+.copaLogo{
+    width: 8rem;
+}
+
+.jogosLi{
+    margin: 25px;
+}
+
+.mainPage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../assets/bf4.jpeg");
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1; 
+}
+.mainPage > * {
+    position: relative; 
+    z-index: 1; 
+}
+

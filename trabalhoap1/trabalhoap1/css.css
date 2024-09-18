@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #000000;
+}
+
+
+header {
+    background: #8A2BE2;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    color: #1E90FF;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.jogos-destaque, .detalhes-jogo, .inscricao, .campeonatos, .historia {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.jogos-destaque h1, .detalhes-jogo h1, .inscricao h1, .campeonatos h1, .historia h1 {
+    margin-bottom: 10px;
+}
+
+.jogo {
+    margin-bottom: 20px;
+}
+
+.jogo img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.jogo h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.jogo a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    background: #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.jogo a:hover {
+    background: #bbb;
+}
+
+.inscricao form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inscricao label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inscricao input, .inscricao button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inscricao button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.inscricao button:hover {
+    background: #555;
+}
+
+rodape {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+rodape a {
+    color: #fff;
+    text-decoration: none;
+}
+
+rodape a:hover {
+    text-decoration: underline;
+}
